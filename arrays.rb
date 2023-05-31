@@ -20,3 +20,9 @@ p booleans
 # Index positions are the locations of the elements within an array.
 # For instance, in the strings array element "felicia" is in index position 2.
 # In the floats array, element 0.3 started at index position 3 but ends up at index position 0.
+
+# I looked at .product
+# This will combine the elements from the original array into a series of new arrays
+# The new arrays will be [original array index position 0, second array index position 0-4]
+# That will repeat until each element of the original array has matched with each element from the second array
+strings.product(integers)
