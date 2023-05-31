@@ -16,3 +16,7 @@ p floats
 # .unshift(false) will add the false element to index position 0
 booleans.unshift(false)
 p booleans
+
+# Index positions are the locations of the elements within an array.
+# For instance, in the strings array element "felicia" is in index position 2.
+# In the floats array, element 0.3 started at index position 3 but ends up at index position 0.
